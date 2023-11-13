@@ -1,12 +1,13 @@
 import Link from 'next/link'
 import React from 'react'
+import { LiaRobotSolid } from 'react-icons/lia'
 
 const NavBar = () => {
   return (
-    <nav>
-        <Link href="/">Logo</Link>
-        <ul>
-            <li><Link href="/">Dashboard</Link></li>
+    <nav className="flex space-x-6 border-b mb-5 px-5 h-14 items-center">
+        <Link href="/"><LiaRobotSolid /></Link>
+        <ul className='flex space-x-6'>
+            <li><Link className='text-zinc-500 hover:text-zinc-700' href="/">Dashboard</Link></li>
             <li><Link href="/issues">Issues</Link></li>
         </ul>
     </nav>
