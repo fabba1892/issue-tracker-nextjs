@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { LiaRobotSolid } from 'react-icons/lia'
+import { LiaRobotSolid } from "react-icons/lia";
 
 const NavBar = () => {
     const links = [
